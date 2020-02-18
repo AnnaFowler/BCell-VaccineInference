@@ -5,6 +5,9 @@ It seeks to classify B cells as either vaccine-specific, non-specific or backgro
 
 R scripts are dependent on each other; sourcing Mixture_EM.R will sequentially source all other scripts.
 
+Required packages are:VGAM, ismev, MASS, and their dependencies.
+
+
 ## Input
 The EM function, is the main function for model fitting, and has the following inputs:
 
