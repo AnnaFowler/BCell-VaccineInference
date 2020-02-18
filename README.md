@@ -39,4 +39,11 @@ Returns a list containing the following elements:
 ```
 load('ExampleData.RData')
 source('Mixture_EM.R')
+results<-EM(X,max_iter=10)
+
+#number of sequences allocated to vaccine specific class
+sum(results[[1]]==2)
+
+#number of sequences allocated to background class
+sum(results[[1]]==1)
 ```
